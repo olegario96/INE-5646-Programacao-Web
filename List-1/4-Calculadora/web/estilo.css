@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+label {
+    
+    width: 60px;
+    text-align: right;
+}
+
+form {
+    width: 350px;
+    margin-top: 10px;
+    border: 1px solid rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 1px;
+}
+
+button {
+    display: block;
+    margin-top: 8px;
+    margin-left: 140px;
+}

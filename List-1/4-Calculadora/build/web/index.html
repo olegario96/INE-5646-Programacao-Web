@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>INE 5646 - Calculadora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estilo.css"/>
+    </head>
+    <body>
+        <h1>INE 5646 - Programação Web</h1>
+        <h2>Calculadora REST</h2>
+        <div>Por favor, complete os campos abaixo</div>
+        
+        <form action="calcule" method="get">
+            
+            <p>
+                <label>
+                    Primeiro operando:
+                </label>
+                <input type="text" name="primeiro-operando"
+                       id="campo-primeiro-operando"/>
+            </p>
+            
+            <p>
+                <label>
+                    Segundo operando:
+                </label>
+                <input type="text" name="segundo-operando"
+                       id="campo-segundo-operando"/>
+            </p>
+            
+            <p>
+                <label>
+                    Operação:
+                </label>
+                <input type="text" name="operacao" id="campo-operacao"/>
+            </p>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
