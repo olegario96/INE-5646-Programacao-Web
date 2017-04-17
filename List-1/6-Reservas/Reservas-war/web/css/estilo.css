@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+label {
+    display: inline-block;
+    width: 250px;
+    text-align: right;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+fieldset {
+    width: 300px;
+    margin-top: 10px;
+}
+
+input {
+    width: 100px;
+}
+
+button {
+    display: block;
+    margin-top: 8px;
+    margin-left: 130px;
+}

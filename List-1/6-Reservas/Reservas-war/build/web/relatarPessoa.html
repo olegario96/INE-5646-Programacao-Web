@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>INE 5646 - Reservas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+    </head>
+    <body>
+        <h1>INE 5646 - Programação Web</h1>
+        <h2>Reservas</h2>
+        Por favor complete os campos abaixo:
+        
+        <form action="ServletRelatorPessoa" method="get">
+            <p>
+                <label>ID pessoa:</label>
+                <input type="text" name="campoIdPessoa" maxlength="6"><br/>
+                
+                <label>Tempo para realizar a operação:</label>
+                <input type="number" name="campoTempo" min="0" max="10">
+                
+                <button type="submit">Enviar</button>
+            </p>
+        </form>
+    </body>
+</html>
